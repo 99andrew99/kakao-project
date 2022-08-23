@@ -1,0 +1,19 @@
+.icon-row {
+  display: flex;
+  justify-content: space-between;
+  
+}
+
+.icon-row__icon {
+  display: flex;
+  flex-direction: column;
+  align-items: center; /*가로축 세로축이 바껴서 align이 가로가 되었다...*/
+}
+
+.icon-row__icon i {
+  font-size: 35px;
+}
+
+.icon-row__icon span {
+  margin-top: 18px;
+}
